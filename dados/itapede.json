@@ -1,0 +1,1193 @@
+{
+  "_aviso": "Dados fictícios, criados só para testes. Nenhum restaurante, cliente ou pedido é real.",
+  "restaurantes": [
+    {
+      "id": 1,
+      "nome": "Restaurante de teste",
+      "cidade": "Itapeva",
+      "categoria": "Teste",
+      "itens": [
+        {
+          "id": 1,
+          "nome": "Marmitex pequeno",
+          "preco": 15.0
+        },
+        {
+          "id": 2,
+          "nome": "Marmitex executivo",
+          "preco": 18.0
+        },
+        {
+          "id": 3,
+          "nome": "Refrigerante lata",
+          "preco": 5.0
+        },
+        {
+          "id": 4,
+          "nome": "Suco natural 500 ml",
+          "preco": 9.0
+        },
+        {
+          "id": 5,
+          "nome": "Pudim",
+          "preco": 4.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Cozinha da Praça",
+      "cidade": "Itapeva",
+      "categoria": "Marmitas",
+      "itens": [
+        {
+          "id": 6,
+          "nome": "Marmita de frango grelhado",
+          "preco": 19.9
+        },
+        {
+          "id": 7,
+          "nome": "Marmita de carne de panela",
+          "preco": 22.9
+        },
+        {
+          "id": 8,
+          "nome": "Marmita vegetariana",
+          "preco": 18.5
+        },
+        {
+          "id": 9,
+          "nome": "Feijoada individual",
+          "preco": 27.0
+        },
+        {
+          "id": 10,
+          "nome": "Salada de maionese",
+          "preco": 8.0
+        },
+        {
+          "id": 11,
+          "nome": "Farofa da casa",
+          "preco": 6.5
+        },
+        {
+          "id": 12,
+          "nome": "Refrigerante 2 litros",
+          "preco": 12.0
+        },
+        {
+          "id": 13,
+          "nome": "Água sem gás",
+          "preco": 3.5
+        },
+        {
+          "id": 14,
+          "nome": "Doce de abóbora",
+          "preco": 6.0
+        },
+        {
+          "id": 15,
+          "nome": "Mousse de maracujá",
+          "preco": 7.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Pastel do Mercado",
+      "cidade": "Itapeva",
+      "categoria": "Lanches",
+      "itens": [
+        {
+          "id": 16,
+          "nome": "Pastel de carne",
+          "preco": 9.0
+        },
+        {
+          "id": 17,
+          "nome": "Pastel de queijo",
+          "preco": 8.5
+        },
+        {
+          "id": 18,
+          "nome": "Pastel de pizza",
+          "preco": 9.5
+        },
+        {
+          "id": 19,
+          "nome": "Pastel de palmito",
+          "preco": 10.5
+        },
+        {
+          "id": 20,
+          "nome": "Pastel de frango com catupiry",
+          "preco": 10.0
+        },
+        {
+          "id": 21,
+          "nome": "Caldo de cana 500 ml",
+          "preco": 7.0
+        },
+        {
+          "id": 22,
+          "nome": "Caldo de cana 1 litro",
+          "preco": 12.0
+        },
+        {
+          "id": 23,
+          "nome": "Pastel doce de banana",
+          "preco": 8.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Pizzaria Forno a Lenha",
+      "cidade": "Nova Campina",
+      "categoria": "Pizzas",
+      "itens": [
+        {
+          "id": 24,
+          "nome": "Pizza mussarela grande",
+          "preco": 49.9
+        },
+        {
+          "id": 25,
+          "nome": "Pizza calabresa grande",
+          "preco": 52.9
+        },
+        {
+          "id": 26,
+          "nome": "Pizza portuguesa grande",
+          "preco": 58.9
+        },
+        {
+          "id": 27,
+          "nome": "Pizza frango com catupiry grande",
+          "preco": 56.9
+        },
+        {
+          "id": 28,
+          "nome": "Pizza média de mussarela",
+          "preco": 39.9
+        },
+        {
+          "id": 29,
+          "nome": "Borda recheada",
+          "preco": 10.0
+        },
+        {
+          "id": 30,
+          "nome": "Refrigerante 2 litros",
+          "preco": 12.0
+        },
+        {
+          "id": 31,
+          "nome": "Pizza doce de chocolate",
+          "preco": 45.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Lanchonete Ponto Certo",
+      "cidade": "Buri",
+      "categoria": "Lanches",
+      "itens": [
+        {
+          "id": 32,
+          "nome": "X-burguer",
+          "preco": 18.0
+        },
+        {
+          "id": 33,
+          "nome": "X-salada",
+          "preco": 20.0
+        },
+        {
+          "id": 34,
+          "nome": "X-bacon",
+          "preco": 24.0
+        },
+        {
+          "id": 35,
+          "nome": "X-tudo",
+          "preco": 29.9
+        },
+        {
+          "id": 36,
+          "nome": "Batata frita porção",
+          "preco": 16.0
+        },
+        {
+          "id": 37,
+          "nome": "Hot dog",
+          "preco": 12.0
+        },
+        {
+          "id": 38,
+          "nome": "Milk-shake 400 ml",
+          "preco": 15.0
+        },
+        {
+          "id": 39,
+          "nome": "Refrigerante lata",
+          "preco": 5.5
+        },
+        {
+          "id": 40,
+          "nome": "Suco de laranja",
+          "preco": 8.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Sabores do Sítio",
+      "cidade": "Taquarivaí",
+      "categoria": "Comida caseira",
+      "itens": [
+        {
+          "id": 41,
+          "nome": "Frango caipira com polenta",
+          "preco": 32.0
+        },
+        {
+          "id": 42,
+          "nome": "Virado à paulista",
+          "preco": 29.0
+        },
+        {
+          "id": 43,
+          "nome": "Tutu de feijão",
+          "preco": 24.0
+        },
+        {
+          "id": 44,
+          "nome": "Arroz carreteiro",
+          "preco": 26.0
+        },
+        {
+          "id": 45,
+          "nome": "Pão de queijo (6 unidades)",
+          "preco": 9.0
+        },
+        {
+          "id": 46,
+          "nome": "Bolo de milho (fatia)",
+          "preco": 6.0
+        },
+        {
+          "id": 47,
+          "nome": "Café coado 300 ml",
+          "preco": 4.0
+        },
+        {
+          "id": 48,
+          "nome": "Suco de uva integral",
+          "preco": 10.0
+        },
+        {
+          "id": 49,
+          "nome": "Quindim",
+          "preco": 6.5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Açaí da Estação",
+      "cidade": "Ribeirão Branco",
+      "categoria": "Sobremesas",
+      "itens": [
+        {
+          "id": 50,
+          "nome": "Açaí 300 ml",
+          "preco": 14.0
+        },
+        {
+          "id": 51,
+          "nome": "Açaí 500 ml",
+          "preco": 19.0
+        },
+        {
+          "id": 52,
+          "nome": "Açaí 700 ml",
+          "preco": 24.0
+        },
+        {
+          "id": 53,
+          "nome": "Adicional de granola",
+          "preco": 2.0
+        },
+        {
+          "id": 54,
+          "nome": "Adicional de leite em pó",
+          "preco": 2.5
+        },
+        {
+          "id": 55,
+          "nome": "Adicional de morango",
+          "preco": 3.5
+        },
+        {
+          "id": 56,
+          "nome": "Sorvete de creme 2 bolas",
+          "preco": 11.0
+        }
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "login": "cliente01",
+      "nome": "Ana Souza",
+      "email": "cliente01@teste.itapede",
+      "bairro": "Vila Nova",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 2,
+      "login": "cliente02",
+      "nome": "Bruno Lima",
+      "email": "cliente02@teste.itapede",
+      "bairro": "Jardim Bela Vista",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 3,
+      "login": "cliente03",
+      "nome": "Carla Mendes",
+      "email": "cliente03@teste.itapede",
+      "bairro": "Jardim Europa",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 4,
+      "login": "cliente04",
+      "nome": "Diego Rocha",
+      "email": "cliente04@teste.itapede",
+      "bairro": "Jardim Europa",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 5,
+      "login": "cliente05",
+      "nome": "Eduarda Silva",
+      "email": "cliente05@teste.itapede",
+      "bairro": "Vila Isabel",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 6,
+      "login": "cliente06",
+      "nome": "Felipe Costa",
+      "email": "cliente06@teste.itapede",
+      "bairro": "Vila Isabel",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 7,
+      "login": "cliente07",
+      "nome": "Gabriela Nunes",
+      "email": "cliente07@teste.itapede",
+      "bairro": "Parque São Jorge",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 8,
+      "login": "cliente08",
+      "nome": "Henrique Alves",
+      "email": "cliente08@teste.itapede",
+      "bairro": "Vila Aparecida",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 9,
+      "login": "cliente09",
+      "nome": "Isabela Prado",
+      "email": "cliente09@teste.itapede",
+      "bairro": "Centro",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 10,
+      "login": "cliente10",
+      "nome": "João Pereira",
+      "email": "cliente10@teste.itapede",
+      "bairro": "Jardim Europa",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 11,
+      "login": "cliente11",
+      "nome": "Karina Moraes",
+      "email": "cliente11@teste.itapede",
+      "bairro": "Jardim Bela Vista",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 12,
+      "login": "cliente12",
+      "nome": "Leonardo Dias",
+      "email": "cliente12@teste.itapede",
+      "bairro": "Vila Nova",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 13,
+      "login": "cliente13",
+      "nome": "Mariana Lopes",
+      "email": "cliente13@teste.itapede",
+      "bairro": "Jardim Bela Vista",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 14,
+      "login": "cliente14",
+      "nome": "Nicolas Ferraz",
+      "email": "cliente14@teste.itapede",
+      "bairro": "Centro",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 15,
+      "login": "cliente15",
+      "nome": "Olívia Ramos",
+      "email": "cliente15@teste.itapede",
+      "bairro": "Jardim Europa",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 16,
+      "login": "cliente16",
+      "nome": "Paulo Teixeira",
+      "email": "cliente16@teste.itapede",
+      "bairro": "Jardim Bela Vista",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 17,
+      "login": "cliente17",
+      "nome": "Rafaela Campos",
+      "email": "cliente17@teste.itapede",
+      "bairro": "Jardim Bela Vista",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 18,
+      "login": "cliente18",
+      "nome": "Samuel Duarte",
+      "email": "cliente18@teste.itapede",
+      "bairro": "Vila Aparecida",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 19,
+      "login": "cliente19",
+      "nome": "Tatiane Vieira",
+      "email": "cliente19@teste.itapede",
+      "bairro": "Centro",
+      "cidade": "Itapeva"
+    },
+    {
+      "id": 20,
+      "login": "cliente20",
+      "nome": "Vinícius Faria",
+      "email": "cliente20@teste.itapede",
+      "bairro": "Vila Aparecida",
+      "cidade": "Itapeva"
+    }
+  ],
+  "cupons": [
+    {
+      "codigo": "ITA15",
+      "percentual": 15,
+      "ativo": true,
+      "descricao": "15% de desconto no subtotal (RF03)"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 900,
+      "cliente_id": 14,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 39,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 16.5,
+      "status": "entregue",
+      "data": "2026-10-06"
+    },
+    {
+      "id": 901,
+      "cliente_id": 17,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 17,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 8.5,
+      "status": "entregue",
+      "data": "2026-10-25"
+    },
+    {
+      "id": 902,
+      "cliente_id": 7,
+      "restaurante_id": 7,
+      "itens": [
+        {
+          "item_id": 56,
+          "quantidade": 1
+        },
+        {
+          "item_id": 55,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 18.0,
+      "status": "entregue",
+      "data": "2026-10-24"
+    },
+    {
+      "id": 903,
+      "cliente_id": 13,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 36,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 16.0,
+      "status": "entregue",
+      "data": "2026-10-11"
+    },
+    {
+      "id": 904,
+      "cliente_id": 2,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 6,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 39.8,
+      "status": "cancelado",
+      "data": "2026-10-16"
+    },
+    {
+      "id": 905,
+      "cliente_id": 4,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 19,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 21.0,
+      "status": "entregue",
+      "data": "2026-10-04"
+    },
+    {
+      "id": 906,
+      "cliente_id": 1,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 44,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 52.0,
+      "status": "entregue",
+      "data": "2026-10-05"
+    },
+    {
+      "id": 907,
+      "cliente_id": 19,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 49,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 6.5,
+      "status": "cancelado",
+      "data": "2026-10-18"
+    },
+    {
+      "id": 908,
+      "cliente_id": 3,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 17,
+          "quantidade": 1
+        },
+        {
+          "item_id": 19,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 40.0,
+      "status": "entregue",
+      "data": "2026-10-06"
+    },
+    {
+      "id": 909,
+      "cliente_id": 5,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 41,
+          "quantidade": 3
+        },
+        {
+          "item_id": 49,
+          "quantidade": 3
+        },
+        {
+          "item_id": 43,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 187.5,
+      "status": "entregue",
+      "data": "2026-10-24"
+    },
+    {
+      "id": 910,
+      "cliente_id": 13,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 42,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 87.0,
+      "status": "entregue",
+      "data": "2026-10-06"
+    },
+    {
+      "id": 911,
+      "cliente_id": 19,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 41,
+          "quantidade": 3
+        },
+        {
+          "item_id": 46,
+          "quantidade": 3
+        },
+        {
+          "item_id": 47,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 126.0,
+      "status": "entregue",
+      "data": "2026-10-12"
+    },
+    {
+      "id": 912,
+      "cliente_id": 1,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 11,
+          "quantidade": 2
+        },
+        {
+          "item_id": 13,
+          "quantidade": 1
+        },
+        {
+          "item_id": 9,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 97.5,
+      "status": "cancelado",
+      "data": "2026-10-20"
+    },
+    {
+      "id": 913,
+      "cliente_id": 7,
+      "restaurante_id": 4,
+      "itens": [
+        {
+          "item_id": 30,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 12.0,
+      "status": "entregue",
+      "data": "2026-10-15"
+    },
+    {
+      "id": 914,
+      "cliente_id": 4,
+      "restaurante_id": 4,
+      "itens": [
+        {
+          "item_id": 25,
+          "quantidade": 3
+        },
+        {
+          "item_id": 26,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 276.5,
+      "status": "entregue",
+      "data": "2026-10-01"
+    },
+    {
+      "id": 915,
+      "cliente_id": 3,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 38,
+          "quantidade": 3
+        },
+        {
+          "item_id": 39,
+          "quantidade": 1
+        },
+        {
+          "item_id": 34,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 122.5,
+      "status": "cancelado",
+      "data": "2026-10-21"
+    },
+    {
+      "id": 916,
+      "cliente_id": 12,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 22,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 36.0,
+      "status": "entregue",
+      "data": "2026-10-05"
+    },
+    {
+      "id": 917,
+      "cliente_id": 2,
+      "restaurante_id": 7,
+      "itens": [
+        {
+          "item_id": 51,
+          "quantidade": 2
+        },
+        {
+          "item_id": 55,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 41.5,
+      "status": "entregue",
+      "data": "2026-10-09"
+    },
+    {
+      "id": 918,
+      "cliente_id": 2,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 18,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 9.5,
+      "status": "entregue",
+      "data": "2026-10-15"
+    },
+    {
+      "id": 919,
+      "cliente_id": 10,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 20,
+          "quantidade": 1
+        },
+        {
+          "item_id": 23,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 26.0,
+      "status": "entregue",
+      "data": "2026-10-16"
+    },
+    {
+      "id": 920,
+      "cliente_id": 10,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 43,
+          "quantidade": 3
+        },
+        {
+          "item_id": 42,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 159.0,
+      "status": "entregue",
+      "data": "2026-10-03"
+    },
+    {
+      "id": 921,
+      "cliente_id": 9,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 34,
+          "quantidade": 3
+        },
+        {
+          "item_id": 38,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 87.0,
+      "status": "cancelado",
+      "data": "2026-10-12"
+    },
+    {
+      "id": 922,
+      "cliente_id": 5,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 10,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 24.0,
+      "status": "entregue",
+      "data": "2026-10-21"
+    },
+    {
+      "id": 923,
+      "cliente_id": 7,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 9,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 27.0,
+      "status": "entregue",
+      "data": "2026-10-16"
+    },
+    {
+      "id": 924,
+      "cliente_id": 19,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 40,
+          "quantidade": 1
+        },
+        {
+          "item_id": 38,
+          "quantidade": 3
+        },
+        {
+          "item_id": 32,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 89.0,
+      "status": "entregue",
+      "data": "2026-10-18"
+    },
+    {
+      "id": 925,
+      "cliente_id": 3,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 6,
+          "quantidade": 3
+        },
+        {
+          "item_id": 12,
+          "quantidade": 3
+        },
+        {
+          "item_id": 10,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 119.7,
+      "status": "entregue",
+      "data": "2026-10-03"
+    },
+    {
+      "id": 926,
+      "cliente_id": 4,
+      "restaurante_id": 7,
+      "itens": [
+        {
+          "item_id": 55,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "status": "entregue",
+      "data": "2026-10-23"
+    },
+    {
+      "id": 927,
+      "cliente_id": 2,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 32,
+          "quantidade": 3
+        },
+        {
+          "item_id": 39,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 70.5,
+      "status": "entregue",
+      "data": "2026-10-12"
+    },
+    {
+      "id": 928,
+      "cliente_id": 20,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 19,
+          "quantidade": 3
+        },
+        {
+          "item_id": 18,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 60.0,
+      "status": "cancelado",
+      "data": "2026-10-08"
+    },
+    {
+      "id": 929,
+      "cliente_id": 19,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 15,
+          "quantidade": 3
+        },
+        {
+          "item_id": 7,
+          "quantidade": 2
+        },
+        {
+          "item_id": 6,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 108.1,
+      "status": "entregue",
+      "data": "2026-10-03"
+    },
+    {
+      "id": 930,
+      "cliente_id": 3,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 18,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 9.5,
+      "status": "entregue",
+      "data": "2026-10-12"
+    },
+    {
+      "id": 931,
+      "cliente_id": 3,
+      "restaurante_id": 6,
+      "itens": [
+        {
+          "item_id": 49,
+          "quantidade": 1
+        },
+        {
+          "item_id": 48,
+          "quantidade": 3
+        }
+      ],
+      "subtotal": 36.5,
+      "status": "entregue",
+      "data": "2026-10-03"
+    },
+    {
+      "id": 932,
+      "cliente_id": 19,
+      "restaurante_id": 4,
+      "itens": [
+        {
+          "item_id": 31,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 90.0,
+      "status": "entregue",
+      "data": "2026-10-13"
+    },
+    {
+      "id": 933,
+      "cliente_id": 8,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 33,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 40.0,
+      "status": "cancelado",
+      "data": "2026-10-25"
+    },
+    {
+      "id": 934,
+      "cliente_id": 4,
+      "restaurante_id": 3,
+      "itens": [
+        {
+          "item_id": 19,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 10.5,
+      "status": "entregue",
+      "data": "2026-10-04"
+    },
+    {
+      "id": 935,
+      "cliente_id": 17,
+      "restaurante_id": 2,
+      "itens": [
+        {
+          "item_id": 7,
+          "quantidade": 3
+        },
+        {
+          "item_id": 11,
+          "quantidade": 1
+        },
+        {
+          "item_id": 15,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 90.2,
+      "status": "entregue",
+      "data": "2026-10-12"
+    },
+    {
+      "id": 936,
+      "cliente_id": 9,
+      "restaurante_id": 7,
+      "itens": [
+        {
+          "item_id": 51,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 19.0,
+      "status": "entregue",
+      "data": "2026-10-01"
+    },
+    {
+      "id": 937,
+      "cliente_id": 2,
+      "restaurante_id": 5,
+      "itens": [
+        {
+          "item_id": 32,
+          "quantidade": 3
+        },
+        {
+          "item_id": 33,
+          "quantidade": 2
+        }
+      ],
+      "subtotal": 94.0,
+      "status": "entregue",
+      "data": "2026-10-16"
+    },
+    {
+      "id": 938,
+      "cliente_id": 10,
+      "restaurante_id": 4,
+      "itens": [
+        {
+          "item_id": 27,
+          "quantidade": 3
+        },
+        {
+          "item_id": 29,
+          "quantidade": 2
+        },
+        {
+          "item_id": 24,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 240.6,
+      "status": "entregue",
+      "data": "2026-10-06"
+    },
+    {
+      "id": 939,
+      "cliente_id": 11,
+      "restaurante_id": 4,
+      "itens": [
+        {
+          "item_id": 24,
+          "quantidade": 1
+        },
+        {
+          "item_id": 26,
+          "quantidade": 1
+        }
+      ],
+      "subtotal": 108.8,
+      "status": "cancelado",
+      "data": "2026-10-08"
+    }
+  ]
+}

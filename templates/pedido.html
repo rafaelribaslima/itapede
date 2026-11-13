@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block titulo %}Pedido confirmado · ItaPede{% endblock %}
+{% block conteudo %}
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-sm p-8 text-center">
+  <div class="mx-auto w-20 h-20 rounded-full bg-green-600 text-white text-5xl leading-[5rem]">✓</div>
+  <h1 class="text-2xl font-bold mt-4">Pedido confirmado</h1>
+  <p class="text-gray-600 mt-2">Pedido nº {{ p.id }} · {{ p.restaurante }}</p>
+  <p class="text-gray-600">Total: {{ p.total|brl }}</p>
+  <p class="text-gray-600">Previsão de entrega: 35 a 45 min</p>
+  <a href="{{ url_for('inicio') }}" class="inline-block mt-6 border border-orange-600 text-orange-600 rounded-lg px-4 py-2">Fazer novo pedido</a>
+</div>
+{% endblock %}

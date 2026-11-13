@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block titulo %}{{ r.nome }} · ItaPede{% endblock %}
+{% block conteudo %}
+<a href="{{ url_for('inicio') }}" class="text-sm text-orange-700 hover:underline">← Restaurantes</a>
+<h1 class="text-xl font-bold mt-2">{{ r.nome }}</h1>
+<p class="text-sm text-gray-500 mb-4">{{ r.categoria }} · {{ r.cidade }}</p>
+<div class="grid gap-6 md:grid-cols-5">
+  <section class="md:col-span-3 bg-white rounded-xl shadow-sm divide-y divide-gray-200">
+    {% for it in r.itens %}
+    {% set q = c.itens.get(it.id|string, 0) %}
+    <div class="flex items-center justify-between p-4">
+      <div>
+        <div class="font-semibold">{{ it.nome }}</div>
+        <div class="text-sm text-gray-500">{{ it.preco|brl }}</div>
+      </div>
+      <div class="flex items-center gap-3">
+        <form method="post" action="{{ url_for('remover', rid=r.id, item_id=it.id) }}">
+          <button aria-label="Remover {{ it.nome }}" class="w-9 h-9 rounded-full border text-xl leading-none {{ 'border-gray-300 text-gray-300 cursor-not-allowed' if q == 0 else 'border-orange-600 text-orange-600' }}" {{ 'disabled' if q == 0 }}>−</button>
+        </form>
+        <span class="w-6 text-center font-bold">{{ q }}</span>
+        <form method="post" action="{{ url_for('adicionar', rid=r.id, item_id=it.id) }}">
+          <button aria-label="Adicionar {{ it.nome }}" class="w-9 h-9 rounded-full border text-xl leading-none {{ 'border-orange-600 text-orange-600' if pode_adicionar(q) else 'border-gray-300 text-gray-300 cursor-not-allowed' }}" {{ '' if pode_adicionar(q) else 'disabled' }}>+</button>
+        </form>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+  <aside class="md:col-span-2 bg-white rounded-xl shadow-sm p-4 h-fit">
+    <h2 class="font-bold text-lg mb-3">Carrinho</h2>
+    <form method="post" action="{{ url_for('aplicar_cupom', rid=r.id) }}" class="flex gap-2 mb-3">
+      <input name="cupom" placeholder="Cupom de desconto" value="{{ c.cupom or '' }}" class="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm">
+      <button class="border border-orange-600 text-orange-600 rounded-lg px-3 text-sm font-semibold">Aplicar</button>
+    </form>
+    <dl class="space-y-2 text-sm">
+      <div class="flex justify-between"><dt>Subtotal</dt><dd id="subtotal">{{ resumo.subtotal|brl }}</dd></div>
+      {% if resumo.cupom %}
+      <div class="flex justify-between"><dt>Desconto ({{ resumo.cupom }})</dt><dd id="desconto">− {{ resumo.desconto|brl }}</dd></div>
+      {% endif %}
+      <div class="flex justify-between"><dt>Taxa de entrega</dt>
+        <dd id="taxa">{% if resumo.taxa is none %}–{% elif resumo.taxa == 0 %}Grátis{% else %}{{ resumo.taxa|brl }}{% endif %}</dd></div>
+      <div class="flex justify-between text-base font-bold pt-2 border-t border-gray-200"><dt>Total</dt><dd id="total">{{ resumo.total|brl }}</dd></div>
+    </dl>
+    <form method="post" action="{{ url_for('finalizar', rid=r.id) }}" class="mt-4">
+      <button id="finalizar" class="w-full rounded-lg py-3 font-bold {{ 'bg-orange-600 text-white' if resumo.pode_finalizar else 'bg-gray-300 text-gray-500 cursor-not-allowed' }}" {{ '' if resumo.pode_finalizar else 'disabled' }}>Finalisar pedido</button>
+    </form>
+    {% if not resumo.pode_finalizar %}<p class="text-xs text-gray-500 text-center mt-2">Pedido mínimo: R$ 20,00</p>{% endif %}
+  </aside>
+</div>
+{% endblock %}

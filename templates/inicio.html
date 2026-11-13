@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<h1 class="text-xl font-bold mb-4">Restaurantes</h1>
+<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  {% for r in restaurantes %}
+  <a href="{{ url_for('restaurante', rid=r.id) }}" class="block bg-white rounded-xl shadow-sm p-4 hover:shadow-md transition">
+    <div class="font-semibold text-lg">{{ r.nome }}</div>
+    <div class="text-sm text-gray-500">{{ r.categoria }} · {{ r.cidade }}</div>
+    <div class="text-sm text-gray-500 mt-2">{{ r.itens|length }} itens no cardápio</div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}
