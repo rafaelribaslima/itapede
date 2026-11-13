@@ -8,7 +8,7 @@ Todos os restaurantes, clientes e pedidos são dados de teste.
 Pré-requisitos: Python 3.10 ou mais novo e Git.
 
 ```bash
-git clone <endereço do repositório>
+git clone https://github.com/rafaelribaslima/itapede.git
 cd itapede
 python -m venv .venv
 ```
